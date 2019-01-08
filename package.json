@@ -1,0 +1,25 @@
+{
+  "name": "webscraping-hispachan",
+  "version": "0.3.0",
+  "description": "Web Scraping para hispachan, saca las imagenes de un hilo",
+  "main": "index.js",
+  "scripts": {
+    "start": "echo Debes llamar al script asi: 'sudo ./index.js --tablon={tablon} --hilo={hilo}', si lo quieres ejecutar en windows, solo usa npm run win",
+    "win": "node index.js --tablon=di --hilo=48510"
+  },
+  "keywords": [
+    "web",
+    "scraping",
+    "hispachan"
+  ],
+  "author": "José Padrón",
+  "license": "gpl-3.0",
+  "dependencies": {
+    "cheerio": "1.0.0-rc.2",
+    "request": "2.88.0",
+    "yargs": "12.0.5"
+  },
+  "devDependencies": {
+    "eslint": "5.12.0"
+  }
+}
